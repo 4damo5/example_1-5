@@ -39,7 +39,7 @@ int main()
 
         if ( numberOfIncorrectCodes < 5 ) {
             
-            if ( aButton && bButton && cButton && dButton && !enterButton ) {
+            if ( aButton && dButton && !enterButton ) {
                 incorrectCodeLed = OFF;
             }
 
