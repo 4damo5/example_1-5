@@ -37,7 +37,7 @@ int main()
 
         alarmLed = alarmState;
 
-        if ( numberOfIncorrectCodes < 5 ) {
+        if ( numberOfIncorrectCodes < 4 ) {
             
             if ( aButton && dButton && !enterButton ) {
                 incorrectCodeLed = OFF;
